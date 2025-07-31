@@ -57,3 +57,28 @@ print("Menor idade: ", min(idades))
 
 print("Maior idade: ", max(idades))
 
+#%%
+
+mateus = ["Mateus Alsina", 26, 
+          True, "Solteiro", 
+          1800.50, 
+          ["gerente", "marketing", "cientista de dados"]]
+
+print("tamanho de mateus: ", len(mateus))
+
+print("ultimo emprego do Mateus: ", mateus[5][0])
+
+emprego = mateus[5]
+primeiro_emprego = emprego[0]
+print(primeiro_emprego)
+
+
+
+#consigo criar uma lista dentro da outra, e para acessar os seus elementos eu utilizo da forma
+#exemplificada acima. 
+
+#%%
+
+tamanho = len(mateus)
+pos = tamanho - 1 
+mateus(pos) 
